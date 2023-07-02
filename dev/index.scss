@@ -1,0 +1,25 @@
+@use "reset";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+canvas {
+  box-sizing: content-box;
+  image-rendering: pixelated;
+}
+
+b, strong {
+  font-weight: bold;
+}
